@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: grey;
+    margin: 20px;
+    padding: 20px;
+}
+
+#container {
+    width: 552px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 25px;
+    background-color: rgb(82, 75, 73);
+    color: white;
+    text-align: center;
+}
+
+.choice {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid black;
+    float: left;
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.choice:hover {
+    box-shadow: 5px 5px 30px 0px rgba(204, 204, 204, 1);
+    cursor: pointer;
+}
+
+#symbols {
+    width: 552px;
+    height: 174px;
+}
+
+#rock {
+    background-image: url("/src/rock.png");
+    background-repeat: no-repeat;
+}
+
+#paper {
+    background-image: url("/src/paper.png");
+    background-repeat: no-repeat;
+}
+
+#scissors {
+    background-image: url("/src/scissors.png");
+    background-repeat: no-repeat;
+}
+
+.score {
+    width: 180px;
+    float: left;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.win {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    border: 2px solid black;
+    float: left;
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.lose {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border: 2px solid black;
+    float: left;
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.draw {
+    width: 150px;
+    height: 150px;
+    background-color: grey;
+    border: 2px solid black;
+    float: left;
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#vs {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    color: black;
+    font-size: 80px;
+    text-align: center;
+    border: 2px solid black;
+    float: left;
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 5px;
+    color: black;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-left: 44px;
+    float: left;
+}
+
+.button:hover {
+    box-shadow: 5px 5px 30px 0px rgba(204, 204, 204, 1);
+    cursor: pointer;
+}
