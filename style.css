@@ -44,17 +44,17 @@ body {
 }
 
 #rock {
-    background-image: url("/src/rock.png");
+    background-image: url("src/rock.png");
     background-repeat: no-repeat;
 }
 
 #paper {
-    background-image: url("/src/paper.png");
+    background-image: url("src/paper.png");
     background-repeat: no-repeat;
 }
 
 #scissors {
-    background-image: url("/src/scissors.png");
+    background-image: url("src/scissors.png");
     background-repeat: no-repeat;
 }
 
